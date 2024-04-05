@@ -1,0 +1,85 @@
+[
+  {
+    "_id": "1",
+    "service_name": "Haircut",
+    "price": "$30",
+    "img": "https://i.ibb.co/DbWKCJL/haircut.jpg",
+    "icon": "https://i.ibb.co/PQcrk8m/Group-1372.png",
+    "details": "Includes shampoo, conditioning, and styling.",
+    "category": "popular"
+  },
+  {
+    "_id": "2",
+    "service_name": "Manicure",
+    "price": "$25",
+    "img": "https://i.ibb.co/cvDNBpF/manicure1.jpg",
+    "icon": "manicure_icon.png",
+    "details": "Nail shaping, cuticle care, hand massage, and polish application."
+  },
+  {
+    "_id": "3",
+    "service_name": "Pedicure",
+    "price": "$35",
+    "img": "https://i.ibb.co/WPJJj13/pedicure.jpg",
+    "icon": "pedicure_icon.png",
+    "details": "Foot soak, nail shaping, cuticle care, foot massage, and polish application."
+  },
+  {
+    "_id": "4",
+    "service_name": "Facial",
+    "price": "$50",
+    "img": "https://i.ibb.co/WB9X258/facial.jpg",
+    "icon": "https://i.ibb.co/xgpkwpz/Group-1373.png",
+    "details": "Deep cleansing, exfoliation, steam, extractions, facial massage, and mask.",
+    "category": "popular"
+  },
+  {
+    "_id": "5",
+    "service_name": "Waxing",
+    "price": "$40",
+    "img": "https://i.ibb.co/BPV5mSK/waxing.jpg",
+    "icon": "waxing_icon.png",
+    "details": "Hair removal for various body parts using waxing techniques."
+  },
+  {
+    "_id": "6",
+    "service_name": "Makeup",
+    "price": "$60",
+    "img": "https://i.ibb.co/ypbTt4V/makeup.jpg",
+    "icon": "makeup_icon.png",
+    "details": "Professional makeup application for special occasions or events."
+  },
+  {
+    "_id": "7",
+    "service_name": "Massage",
+    "price": "$70",
+    "img": "https://i.ibb.co/zfxj7yh/woman-relaxing-spa.jpg",
+    "icon": "massage_icon.png",
+    "details": "Relaxing body massage to relieve stress and tension."
+  },
+  {
+    "_id": "8",
+    "service_name": "Eyebrow Shaping",
+    "price": "$15",
+    "img": "https://i.ibb.co/qCqWfNR/eyebrow.jpg",
+    "icon": "eyebrow_icon.png",
+    "details": "Expert shaping and grooming of eyebrows for a polished look."
+  },
+  {
+    "_id": "9",
+    "service_name": "Hair Coloring",
+    "price": "$80",
+    "img": "https://i.ibb.co/CMDVfxf/haircolor.jpg",
+    "icon": "https://i.ibb.co/7Q98th2/Group-1374.png",
+    "details": "Professional hair coloring services using high-quality products.",
+    "category": "popular"
+  },
+  {
+    "_id": "10",
+    "service_name": "Bridal Package",
+    "price": "$200",
+    "img": "https://i.ibb.co/nbS3WVs/bridal.jpg",
+    "icon": "bridal_package_icon.png",
+    "details": "A complete package including bridal makeup, hairstyling, manicure, pedicure, and facial for the big day."
+  }
+]

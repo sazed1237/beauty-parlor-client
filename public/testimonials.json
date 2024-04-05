@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Emily Johnson",
+        "testimonial": "I had the most relaxing facial at this parlour! The staff were professional and attentive, and my skin feels amazing. Highly recommend!",
+        "rating": 5,
+        "image": "emily_johnson.jpg"
+    },
+    {
+        "name": "Sophia Smith",
+        "testimonial": "The bridal package I got from here was phenomenal! Everything from the makeup to the hair styling was on point. Made my special day even more special.",
+        "rating": 5,
+        "image": "sophia_smith.jpg"
+    },
+    {
+        "name": "Jessica Lee",
+        "testimonial": "I've been getting my manicures done here for years, and they never disappoint. Great attention to detail and the results are always stunning.",
+        "rating": 4,
+        "image": "jessica_lee.jpg"
+    },
+    {
+        "name": "Olivia Brown",
+        "testimonial": "The massage I got here was just what I needed to unwind after a long week. The therapist was skilled and the ambiance was perfect.",
+        "rating": 5,
+        "image": "olivia_brown.jpg"
+    },
+    {
+        "name": "Ava Williams",
+        "testimonial": "I'm always nervous about trying new salons for waxing, but I felt comfortable here right away. Great service and minimal discomfort.",
+        "rating": 4,
+        "image": "ava_williams.jpg"
+    },
+    {
+        "name": "Ethan Rodriguez",
+        "testimonial": "As a guy, I wasn't sure if I'd feel out of place at a beauty parlour, but the staff made me feel welcome and I got an excellent haircut. Definitely coming back!",
+        "rating": 5,
+        "image": "ethan_rodriguez.jpg"
+    },
+    {
+        "name": "Isabella Martinez",
+        "testimonial": "I came in for a last-minute makeup session before an event and they were able to fit me in. The makeup artist was fantastic and I got so many compliments!",
+        "rating": 4,
+        "image": "isabella_martinez.jpg"
+    },
+    {
+        "name": "Liam Thompson",
+        "testimonial": "I got my eyebrows done here for the first time and I love the result. They look natural and perfectly shaped. Will definitely be a regular customer.",
+        "rating": 5,
+        "image": "liam_thompson.jpg"
+    },
+    {
+        "name": "Emma Clark",
+        "testimonial": "My daughter and I had a mother-daughter spa day here and it was fantastic. Great treatments and a lovely atmosphere. Highly recommend for some quality bonding time!",
+        "rating": 5,
+        "image": "emma_clark.jpg"
+    },
+    {
+        "name": "Noah Garcia",
+        "testimonial": "I've been getting my hair colored here for years and they always get it right. The color lasts and looks vibrant. Definitely the best salon in town for hair color.",
+        "rating": 5,
+        "image": "noah_garcia.jpg"
+    }
+]
