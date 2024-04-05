@@ -5,7 +5,7 @@ import Loading from "../components/Loading";
 
 
 const axiosSecure = axios.create({
-    baseURL: 'http://localhost:5000'
+    baseURL: 'https://beauty-parlour-server-theta.vercel.app'
 })
 
 const useAxiosSecure = () => {

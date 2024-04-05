@@ -4,7 +4,7 @@ import axios from "axios";
 const useAxiosPublic = () => {
 
     const axiosPublic = axios.create({
-        baseURL: 'http://localhost:5000'
+        baseURL: 'https://beauty-parlour-server-theta.vercel.app'
     })
 
     return axiosPublic;
