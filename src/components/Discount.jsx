@@ -7,7 +7,7 @@ const Discount = ({ subHeading, heading, buttonText }) => {
             <div className='flex justify-center items-center bg-[#F63E7B] w-full  bg-opacity-30 '>
                 <div className='text-center py-14 '>
                     <h4 className='text-[#F63E7B] md:text-lg font-bold'>- {subHeading} -</h4>
-                    <h1 className='md:text-6xl text-4xl font-serif font-semibold py-10' >{heading}</h1>
+                    <h1 className='md:text-6xl text-3xl font-serif font-semibold py-10' >{heading}</h1>
                     <button className='btn bg-[#F63E7B] hover:bg-black border-none text-white md:mt-5 md:btn-lg'>{buttonText}</button>
 
                 </div>

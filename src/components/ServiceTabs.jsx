@@ -28,12 +28,12 @@ const ServiceTabs = ({ services, handleAppointment }) => {
                             </div>
 
                             <div className='mt-10 ml-5'>
-                                <h1 className='text-4xl font-mono' >{service.service_name}</h1>
+                                <h1 className='md:text-4xl text-2xl font-mono' >{service.service_name}</h1>
                                 <h3 className='text-2xl py-3 text-[#F63E7B] font-mono'>${service.price}</h3>
                                 <p className='text-gray-500'>{service.details}</p>
 
                                 <div className='mt-10'>
-                                    <button onClick={() => handleAppointment(service._id)} className='btn btn-md px-5 bg-[#F63E7B] hover:bg-[#ef729c] text-white' >Book Appointment</button>
+                                    <button onClick={() => handleAppointment(service._id)} className='btn  md:btn-md px-5 bg-[#F63E7B] hover:bg-[#ef729c] text-white' >Book Appointment</button>
                                 </div>
                             </div>
                         </div>

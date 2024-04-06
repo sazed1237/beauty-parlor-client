@@ -29,7 +29,7 @@ const AddService = () => {
         })
         const imgDisplayUrl = res.data.data.display_url;
 
-        if (res.data.success) { 
+        if (res.data.success) {
             // now send the items data to the server with the image url
             const serviceDetails = {
                 service_name: data.name,
@@ -57,10 +57,10 @@ const AddService = () => {
             <SectionTitle heading={'Add An Item'} subHeading={`What's new`}></SectionTitle>
 
 
-            <div className="card w-5/6 mx-auto shadow-2xl bg-base-200 rounded-none mb-20">
+            <div className="card md:w-5/6 mx-auto shadow-2xl bg-base-200 rounded-none mdmb-20">
                 <form onSubmit={handleSubmit(onSubmit)} className="card-body">
 
-                    <div className='grid md:grid-cols-2 gap-7'>
+                    <div className='grid md:grid-cols-2 md:gap-7'>
                         <div className="form-control">
                             <label className="label">
                                 <span className="label-text">Service Name*</span>
@@ -102,7 +102,7 @@ const AddService = () => {
                         <input
                             {...register("image", { required: true })}
                             type="file"
-                            className="file-input w-full file-input-md"
+                            className="file-input w-full file-input-sm md:file-input-md"
                         />
                     </div>
 

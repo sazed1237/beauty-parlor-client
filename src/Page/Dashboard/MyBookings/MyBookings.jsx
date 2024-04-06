@@ -23,7 +23,7 @@ const MyBookings = () => {
         <div>
             <SectionTitle subHeading={'My All Bookings'}  ></SectionTitle>
 
-            <div className='bg-base-100 px-3 py-5 w-11/12 mx-auto'>
+            <div className='bg-base-100 px-3 py-5 md:w-11/12 mx-auto'>
                 <h2 className='text-2xl py-2 font-semibold'>Total bookings: {bookings.length} </h2>
 
                 {/* cart table  */}

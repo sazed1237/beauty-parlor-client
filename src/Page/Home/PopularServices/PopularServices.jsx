@@ -32,7 +32,7 @@ const PopularServices = () => {
     // console.log(services)
 
     return (
-        <section className='w-10/12 mx-auto my-20'>
+        <section className='w-10/12 mx-auto md:my-20'>
             <div className='grid   md:grid-cols-3 gap-7 '>
                 <div className="card  shadow-sm">
                     <div className="card-body items-center text-center">

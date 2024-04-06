@@ -88,9 +88,9 @@ const Users = () => {
 
     return (
         <div>
-            <SectionTitle heading={'Manage All Users'}  ></SectionTitle>
+            <SectionTitle heading={'All Users'} subHeading={'Manage'}  ></SectionTitle>
 
-            <div className='bg-base-100 px-3 py-5 w-10/12 mx-auto'>
+            <div className='bg-base-100 px-3 py-5  md:w-10/12 mx-auto'>
                 <h2 className='text-2xl py-2 font-semibold'>Total Users: {users.length} </h2>
 
                 {/* cart table  */}

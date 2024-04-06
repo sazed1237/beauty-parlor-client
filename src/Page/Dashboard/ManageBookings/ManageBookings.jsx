@@ -19,14 +19,14 @@ const ManageBookings = () => {
     })
 
     return (
-        <div>
-            <SectionTitle subHeading={'Manage All Bookings'}  ></SectionTitle>
+        <div >
+            <SectionTitle heading={'All Bookings'} subHeading={'Mange'}  ></SectionTitle>
 
-            <div className='bg-base-100 px-3 py-5 w-11/12 mx-auto'>
+            <div className='bg-base-100  px-3 py-5  md:w-11/12 mx-auto'>
                 <h2 className='text-2xl py-2 font-semibold'>Total bookings: {bookings.length} </h2>
 
                 {/* cart table  */}
-                <div className="overflow-x-auto mb-7">
+                <div className="md:overflow-x-auto mb-7">
                     <table className="table">
                         {/* head */}
                         <thead>

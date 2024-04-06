@@ -32,7 +32,7 @@ const Testimonials = () => {
             <SectionTitle heading={'Testimonials'}></SectionTitle>
 
             <Swiper
-                slidesPerView={3}
+                slidesPerView={2}
                 spaceBetween={30}
                 freeMode={true}
                 pagination={{
@@ -48,12 +48,12 @@ const Testimonials = () => {
                         <div className='mb-6'>
                             <div className="flex items-center gap-3 mb-3">
                                 <div className="avatar">
-                                    <div className="mask mask-squircle w-12 h-12">
+                                    <div className="mask mask-squircle w-10 h-10 md:w-12 md:h-12">
                                         <img src="/tailwind-css-component-profile-2@56w.png" alt={review.name} />
                                     </div>
                                 </div>
                                 <div>
-                                    <div className="font-bold">{review.name}</div>
+                                    <div className="font-bold text-sm">{review.name}</div>
                                     <div className="text-sm opacity-50">United States</div>
                                 </div>
                             </div>

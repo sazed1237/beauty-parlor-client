@@ -20,7 +20,7 @@ const TreatmentProgram = () => {
         <div className='w-10/12 mx-auto my-20'>
             <SectionTitle subHeading={'services'} heading={'Treatment Program'} text={"Here's a list of our basic services and prices."} ></SectionTitle>
 
-            <div className='grid grid-cols-2 gap-5 font-serif'>
+            <div className='grid md:grid-cols-2 gap-5 font-serif'>
 
                 {
                     treatments?.map(treatment => <div
@@ -33,9 +33,9 @@ const TreatmentProgram = () => {
                         </div>
                         <div class="flex-grow">
                             <div class="flex justify-between items-center">
-                                <div class="font-bold text-xl ">{treatment.service_name}</div>
+                                <div class="font-bold md:text-xl ">{treatment.service_name}</div>
                                 <div class="flex-grow h-0 border-t border-gray-400"></div>
-                                <div class="font-bold text-[#F63E7B]"><span className='italic'>from</span> ${treatment.price}</div>
+                                <div class="font-bold text-sm md:text-md text-[#F63E7B]"><span className='italic'>from</span> ${treatment.price}</div>
                             </div>
                             <div class="text-sm opacity-80 ">{treatment.details}</div>
                         </div>

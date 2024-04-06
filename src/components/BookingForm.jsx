@@ -15,7 +15,7 @@ const BookingForm = () => {
                     <div className="card shrink-0 w-full max-w-xl">
                         <form className="card-body">
 
-                            <div className='grid grid-cols-2 gap-5'>
+                            <div className='grid md:grid-cols-2 gap-5'>
                                 <div className="form-control">
                                     <input type="text" placeholder="First Name" className="input input-bordered text-black  " required />
                                 </div>
@@ -23,7 +23,7 @@ const BookingForm = () => {
                                     <input type="text" placeholder="Last Name" className="input input-bordered text-black  " required />
                                 </div>
                             </div>
-                            <div className='grid grid-cols-2 gap-5'>
+                            <div className='grid md:grid-cols-2 gap-5'>
                                 <div className="form-control">
                                     <input type="email" placeholder="Email Address" className="input input-bordered text-black  " required />
                                 </div>
